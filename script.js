@@ -8,7 +8,7 @@ let final=[];
 
 for(let i=0;i<touristSpots.length;i++){
 
-    let items=touristSpots.replace(regex,"").trim();
+    let items=touristSpots[i].replace(regex,"").trim();
     list_items.push(items);
     mp[items] = touristSpots[i];
 }
